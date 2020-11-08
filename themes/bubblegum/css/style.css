@@ -74,7 +74,7 @@ h2 {
 
 .flash-img {
     width: 100%;
-    max-height: 5em;
+    max-height: 10em;
     border-radius: 2px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
      0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -126,8 +126,8 @@ h2 {
     color: #f0f0f0;
 }
 
-.social a {
+.social {
     float: right;
-    padding: 2em;
     font-size: 2em;
+    margin: 2em;
 }
