@@ -12,6 +12,8 @@ body {
 body {
     display: flex;
     flex-direction: column;
+    font-family: 'Jaldi',
+    sans-serif;
 }
 
 /* Header */
