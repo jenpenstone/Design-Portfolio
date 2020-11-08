@@ -1,5 +1,5 @@
 ---
-Logo: image/jen.png
+Logo: image/glasspoint.png
 Tagline: Jenny Stenslund
 Social:
     - title: Link till sidans github repo.
