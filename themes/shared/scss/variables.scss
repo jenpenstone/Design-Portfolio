@@ -1,3 +1,10 @@
-$base-color: #00f !default; // blue
-$border-dark: rgba($base-color, 0.88) !default;
-$alert-box-size: 600px !default;
+$base-head-color: #a62648 !default; // dark pink
+$base-main-color: #8c7479 !default; // dusty pink
+$base-text-color: #2b2e30 !default; //dark grey
+$base-footerlink-color: #f0f0f0 !default; //off white
+
+//Fonts
+$base-font-headers: 'cursive' !default;
+$base-font-text: 'sans-serif' !default;
+$font-headers: 'cursive' !default;
+$font-text: 'sans-serif' !default;

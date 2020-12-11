@@ -1,6 +1,7 @@
 ---
 Title: Presentation
 Description: Detta är index-sidan.
+icon: fas fa-home
 ---
 
 Presentation av mig

@@ -1,6 +1,7 @@
 ---
 Title: Redovisning
 Description: Redovisningstexter för design-kursen.
+icon: fas fa-file-signature
 ---
 
 Redovisningssida Design
