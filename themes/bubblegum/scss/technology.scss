@@ -1,0 +1,66 @@
+/* technology.scss */
+.landingpage {
+    display: grid;
+    gap: 1em 1em;
+}
+
+.landingpage h1 {
+    grid-column: span 3;
+    justify-self: center;
+}
+
+.tech-box {
+    grid-column: span 1;
+    width: 100%;
+    height: 10em;
+    margin: 8px auto;
+    padding: 2em;
+    border-radius: 5px;
+    align-content: center;
+    background-image: url(../../../assets/img/glass.jpg);
+    opacity: 0.8;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.tech-box:hover {
+    border: 1px solid $base-text-color;
+}
+
+
+.tech-box h3 {
+    border-radius: 5px;
+    opacity: 1;
+    margin: 5px;
+    padding: 0.5em;
+    background: inherit;
+    border-radius: 3px;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.tech-box h3:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: inherit;
+    box-shadow: inset 0 0 2000px rgba(166, 38, 72, .5);
+    filter: blur(10px);
+    margin: -20px;
+    z-index: -1;
+}
+
+
+/* Small devices */
+
+@media (max-width: 767px) {
+    .tech-box {
+        grid-column: span 3;
+    }
+
+}
