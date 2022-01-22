@@ -6472,6 +6472,7 @@ body {
   display: flex;
   flex-direction: column;
   font-family: "Jaldi", "sans-serif";
+  color: #030303;
 }
 
 /* Navbar */
@@ -6576,10 +6577,12 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   font-family: "Fredericka the Great", "cursive";
   margin-bottom: 0.3em;
   letter-spacing: 2px;
+  color: #030303;
 }
 
 .flash-img {
@@ -6625,7 +6628,7 @@ h2 {
 .site-footer {
   flex: 0 0 auto;
   background: #a62648;
-  color: #2b2e30;
+  color: #030303;
   padding: 2em;
 }
 
@@ -6724,7 +6727,7 @@ h2 {
 }
 
 .tech-box:hover {
-  border: 1px solid #2b2e30;
+  border: 1px solid #030303;
 }
 
 .tech-box a {
@@ -6734,7 +6737,7 @@ h2 {
 }
 
 .tech-box a h3 {
-  color: #2b2e30;
+  color: #030303;
   border-radius: 5px;
   opacity: 1;
   margin: 5px;
@@ -6795,27 +6798,22 @@ h2 {
   width: 100%;
   text-decoration: none;
   font-weight: bold;
-  color: #2b2e30;
+  color: #030303;
 }
 
 .techbutton:hover {
-  border: 1px solid #2b2e30;
+  border: 1px solid #030303;
 }
 
 .article {
   grid-column: span 1;
-  background-color: white;
   padding: 2em;
 }
 
 /* Small devices */
 @media (max-width: 767px) {
   .sidebar {
-    grid-column: span 2;
-  }
-
-  .techbutton {
-    grid-column: span 1;
+    display: none;
   }
 
   .article {

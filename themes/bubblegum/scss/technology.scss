@@ -35,7 +35,6 @@
 
 .article {
     grid-column: span 1;
-    background-color: white;
     padding: 2em;
 }
 
@@ -44,12 +43,9 @@
 
 @media (max-width: 767px) {
     .sidebar {
-        grid-column: span 2;
+        display: none;
     }
-    .techbutton {
-        grid-column: span 1
-    }    
-
+   
     .article {
         grid-column: span 2;
     }
