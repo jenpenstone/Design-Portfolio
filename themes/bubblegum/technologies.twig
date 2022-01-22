@@ -64,30 +64,10 @@
     </header>
 
     <div class="main" id="main" role="main">
+        
         <div class="landingpage">
-            <div class="mainheader">
-                <h1>Teknologier</h1>
-            </div>
-            <!-- Sidebar with articles-->
-            <div class="sidebar">
-                <div id="nav" role="navigation" tabindex="-1">
-                    <ul>
-                        {% for page in pages("technology") if page.title and not page.hidden %}
-                        <li{% if page.id == current_page.id %} class="active" {% endif %}>
-                            <a href="{{ page.url }}" class="techbutton">
-                            {{ page.title }}</a>
-                        </li>
-                        {% endfor %}
-                    </ul>
-                </div>
-            </div>
-
-            <div class="article">
-                {{ content }}
-            </div>
-
+            {{ content }}
         </div>
-
     </div>
     
     <footer class="site-footer">

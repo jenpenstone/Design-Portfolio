@@ -16,6 +16,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: $font-text, $base-font-text;
+    color: $base-text-color;
 }
 
 /* Navbar */
@@ -78,13 +79,13 @@ body {
 .site-header {
     flex: 0 0 auto;
     background-color: $base-head-color;
-    color: $base-text-color;
+    color: $base-header-text-color;
     padding: 0 2em;
 }
 
 .site-header a,
 .site-header a:visited {
-    color: $base-text-color;
+    color: $base-header-text-color
 }
 
 .logo {
@@ -123,10 +124,12 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h3 {
     font-family: $font-headers, $base-font-headers;
     margin-bottom: 0.3em;
     letter-spacing: 2px;
+    color: $base-text-color;
 }
 
 .flash-img {

@@ -7,7 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "stylelint \"**/*.scss\"",
     "style": "sass bubblegum/scss/style.scss bubblegum/css/style.css --no-source-map",
-    "style-min": "sass bubblegum/scss/style.scss bubblegum/css/style.min.css --no-source-map --style compressed"
+    "style-min": "sass bubblegum/scss/style.scss bubblegum/css/style.min.css --no-source-map --style compressed",
+    "watch": "sass bubblegum/scss/style.scss bubblegum/css/style.css --no-source-map --watch",
+    "watch-min": "sass bubblegum/scss/style.scss bubblegum/css/style.min.css --no-source-map --style compressed --watch"
   },
   "keywords": [],
   "author": "",
