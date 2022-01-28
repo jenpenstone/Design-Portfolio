@@ -16,7 +16,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: $font-text, $base-font-text;
-    color: $base-text-color;
+    color: $text-color;
 }
 
 /* Navbar */
@@ -77,14 +77,14 @@ body {
 
 .site-header {
     flex: 0 0 auto;
-    background-color: $base-head-color;
-    color: $base-header-text-color;
+    background-color: $background-head-color;
+    color: $header-text-color;
     padding: 0 2em;
 }
 
 .site-header a,
 .site-header a:visited {
-    color: $base-header-text-color;
+    color: $header-text-color;
 }
 
 .logo {
@@ -128,7 +128,7 @@ h3 {
     font-family: $font-headers, $base-font-headers;
     margin-bottom: 0.3em;
     letter-spacing: 2px;
-    color: $base-text-color;
+    color: $text-color;
 }
 
 .flash-img {
@@ -144,7 +144,7 @@ h3 {
 .main {
     flex: 1 0 auto;
     padding: 2em;
-    background-color: $base-main-color;
+    background-color: $background-main-color;
 }
 
 .main img {
@@ -176,13 +176,13 @@ h3 {
 
 .site-footer {
     flex: 0 0 auto;
-    background: $base-head-color;
-    color: $base-text-color;
+    background: $background-head-color;
+    color: $text-color;
     padding: 2em;
 }
 
 .site-footer a {
-    color: $base-footerlink-color;
+    color: $footerlink-color;
 }
 
 .social {

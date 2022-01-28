@@ -1,0 +1,26 @@
+@import '../../node_modules/normalize.css/normalize';
+
+//import fonts
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+//import fonts from google
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Jaldi&display=swap');
+
+//import light layout
+@import 'variables-light';
+
+//import base layout
+@import '../../shared/scss/base';
+
+//import report layout
+@import 'report';
+
+//import technologies layout
+@import 'technologies';
+
+//import technology layout
+@import 'technology';

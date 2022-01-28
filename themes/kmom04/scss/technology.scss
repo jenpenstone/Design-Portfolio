@@ -1,0 +1,54 @@
+/* technology.scss */
+.landingpage {
+    display: grid;
+    gap: 1em 1em;
+}
+
+.mainheader {
+    grid-column: span 2;
+}
+
+.sidebar {
+    grid-column: span 1;
+    background-color: $background-head-color;
+}
+
+.sidebar li {
+    list-style: none;
+    display: grid;
+}
+
+.techbutton {
+    grid-column: span 1;
+    padding: 0.5em;
+    margin: 0.2em;
+    text-align: center;
+    width: 100%;
+    text-decoration: none;
+    font-weight: bold;
+    color: $sidemenu-text-color;
+}
+
+.techbutton:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.article {
+    grid-column: span 1;
+    padding: 2em;
+}
+
+
+/* Small devices */
+
+@media (max-width: 767px) {
+    .sidebar {
+        display: none;
+    }
+   
+    .article {
+        grid-column: span 2;
+    }
+
+}
